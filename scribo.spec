@@ -2,7 +2,8 @@ Name: scribo
 Summary: Scribo semantic annotation features
 Version: 0.2.0
 Release: 1
-Group: Graphical desktop/KDE
+Group:   Graphical desktop/KDE
+Epoch:   2
 License: LGPL
 URL: http://nepomuk.kde.org
 # http://websvn.kde.org/trunk/playground/base/nepomuk-kde/
@@ -18,6 +19,7 @@ BuildRequires: olena-devel >= 1.0-3
 BuildRequires: strigi-devel
 BuildRequires: tesseract-devel >= 2.04-4
 BuildRequires: shared-desktop-ontologies-devel 
+BuildRequires: nepomukextras-devel
 Requires: tesseract
 Requires: ginkgo
 Obsoletes: playground-nepomuk-kde
@@ -61,8 +63,8 @@ Nepomuk support library.
 %package devel
 Summary: Devel headers for nepomuk support
 Group: Development/KDE and Qt
-Requires: %{libscribo} = %version-%release
-Requires: %{name} = %version-%release
+Requires: %{libscribo} = %epoch:%version-%release
+Requires: %{name} = %epoch:%version-%release
 
 %description devel
 Devel headers for nepomuk playground
