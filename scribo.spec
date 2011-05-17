@@ -15,7 +15,7 @@ BuildRequires: kdepimlibs4-devel >= 4.3.80
 BuildRequires: kdebase4-runtime-devel >= 1:4.3.80
 BuildRequires: kdebase4-workspace-devel >= 2:4.3.80
 BuildRequires: kdebase4-devel >= 1:4.3.80
-BuildRequires: olena-devel >= 1.0-3
+BuildRequires: kolena-devel >= 1.0-3
 BuildRequires: strigi-devel
 BuildRequires: tesseract-devel >= 2.04-4
 BuildRequires: shared-desktop-ontologies-devel 
