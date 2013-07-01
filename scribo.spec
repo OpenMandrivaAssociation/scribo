@@ -1,5 +1,5 @@
 Name:		scribo
-Summary:	Scribo semantic annotation features
+Summary:	Semantic annotation features
 Version:	0.2.0
 Release:	1
 Group:		Graphical desktop/KDE
