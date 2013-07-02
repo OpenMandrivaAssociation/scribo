@@ -1,7 +1,7 @@
 Name:		scribo
 Summary:	Semantic annotation features
 Version:	0.2.0
-Release:	1
+Release:	2
 Group:		Graphical desktop/KDE
 Epoch:		2
 License:	LGPL
