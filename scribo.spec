@@ -5,7 +5,7 @@ Release:	3
 Group:		Graphical desktop/KDE
 Epoch:		2
 License:	LGPL
-URL:		http://nepomuk.kde.org
+URL:		https://nepomuk.kde.org
 # http://websvn.kde.org/trunk/playground/base/nepomuk-kde/
 Source:		%name-%{version}.tar.bz2
 BuildRequires:	soprano-devel
