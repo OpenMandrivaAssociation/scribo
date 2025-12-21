@@ -8,6 +8,7 @@ License:	LGPL
 URL:		https://nepomuk.kde.org
 # http://websvn.kde.org/trunk/playground/base/nepomuk-kde/
 Source:		%name-%{version}.tar.bz2
+BuildRequires:	make
 BuildRequires:	soprano-devel
 BuildRequires: kdelibs4-devel
 BuildRequires: kdepimlibs4-devel
